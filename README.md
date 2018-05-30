@@ -48,4 +48,5 @@ POC code to connect SignalR server using websocket only
     
 ## Reference
 
+https://docs.microsoft.com/en-us/aspnet/core/signalr/introduction?view=aspnetcore-2.1
 https://github.com/aspnet/SignalR/blob/dev/specs/HubProtocol.md
