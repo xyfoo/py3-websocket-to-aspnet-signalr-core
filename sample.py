@@ -13,7 +13,6 @@ def encode_json(obj):
 def ws_on_message(ws, message: str):
     ignore_list = ['{"type":6}', '{}']
     # Split using record seperator, as records can be received as one message
-    print(f"Original: {message}")
     for msg in message.split(chr(0x1E)):
         if msg and msg not in ignore_list:
             # Everything else not on ignore list
